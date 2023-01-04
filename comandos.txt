@@ -1,0 +1,10 @@
+gcloud builds submit --tag gcr.io/rodrigo-estudos/aplicacaoteste
+
+gcloud run deploy --image gcr.io/rodrigo-estudos/aplicacaoteste --platform managed --no-cpu-throttling
+
+
+from brazil - 35.215.202.145
+)woqvokt.;^N7IH
+
+from america - 35.209.29.246
+q=YbNfG)ni+<t0g
