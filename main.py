@@ -23,5 +23,7 @@ def hello():
     return consulta(),200
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8081))
-    app.run(host='127.0.0.1', port=port, debug=True, threaded=True)
+    import uvicorn
+
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, 
+                log_level='info', reload=True)

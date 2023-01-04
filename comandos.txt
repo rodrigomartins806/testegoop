@@ -8,3 +8,10 @@ from brazil - 35.215.202.145
 
 from america - 35.209.29.246
 q=YbNfG)ni+<t0g
+
+Instalacao digital ocean
+
+apt install build-essencial git unzip zip nload tree python3-dev python3-pip python3-venv fail2ban acl nginx python3-certbot-nginx -y
+
+
+/apps/testegoop
